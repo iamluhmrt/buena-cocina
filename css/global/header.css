@@ -12,6 +12,15 @@
   padding-bottom: 20px;
 }
 
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 256px;
+  aspect-ratio: 156 / 56;
+  object-fit: contain;
+}
+
 .header-menu {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +63,14 @@
   .header a:after {
     display: none;
   }
+  .logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 156px;
+    aspect-ratio: 156 / 56;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 600px) {
@@ -63,5 +80,13 @@
   .header-menu a {
     padding: 8px 12px;
     font-size: 14px;
+  }
+  .logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 156px;
+    aspect-ratio: 156 / 56;
+    object-fit: contain;
   }
 }
